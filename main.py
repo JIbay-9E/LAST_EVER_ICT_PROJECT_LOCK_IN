@@ -1,4 +1,4 @@
-# for the classmate checker bs
+
 class Classmate:
     def __init__(self, name, section, favorite_subject):
         self.name = name
@@ -25,7 +25,6 @@ def get_introductions():
 def add_classmate(name, section, subject):
     classmates.append(Classmate(name, section, subject))
 
-# for the uhm attendance thingy thingy
 try:
     from pyscript import display, document
     import numpy as np
